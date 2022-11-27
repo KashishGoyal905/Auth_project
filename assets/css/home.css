@@ -1,0 +1,42 @@
+* {
+    background-color: grey;
+}
+
+body {
+    width: 50%;
+    min-height: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+h1 {
+    position: absolute;
+    left: -48%;
+    top: -33%;
+}
+
+h3 a {
+    text-decoration: none;
+    color: white;
+    min-width: 30px;
+    position:absolute;
+    right:-40%;
+    top:-20%;
+    height: 20px;
+    background-color: red;
+
+}
+
+span {
+    color: rgb(30, 88, 5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: rgb(228, 153, 13);
+}

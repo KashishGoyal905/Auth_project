@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>This is fuking home bro</h1>
-    <ol>
+    <h1>Logged in as: <span><%= user.username%></span>
+        <h3><a href="/log-out">Log-Out</a></h3>
+    </h1>
+    <h2>   Your Fellow Users:</h2>
+    <ul>
         <% for(let user of users) { %>
             <li>
                 <h2>
@@ -18,7 +22,7 @@
                 </h2>
             </li>
             <% } %>
-    </ol>
+    </ul>
 </body>
 
 </html>

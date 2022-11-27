@@ -1,0 +1,34 @@
+body {
+    width: 50%;
+    min-height: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sign-inn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+#sign-inn button {
+    background-color: green;
+    color: white;
+}
+
+#sign-upp button {
+    background-color: black;
+    color: white;
+    width: 45%;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+span {
+    margin-left: -40px;
+}

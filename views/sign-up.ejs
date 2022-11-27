@@ -5,22 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/sign-up.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Sign Up Page</h1>
-    <form action="/create-user" method="post">
+    <h1>Sign Up</h1>
+    <form action="/create-user" method="post" id="sign-upp">
         <label for="email">Email: </label>
         <input type="email" name="email" id="email" placeholder="Enter Your email">
+        <br>
+        <label for="username">Username: </label>
+        <input type="username" name="username" id="username" placeholder="Enter Your username">
         <br>
         <label for="password">Password: </label>
         <input type="text" name="password" id="password" placeholder="Enter Your password">
         <br>
         <label for="cnfpass">Confirm Password: </label>
-        <input type="text" name="cnfpass" id="cnfpass" placeholder="Enter Your name">
+        <input type="text" name="cnfpass" id="cnfpass" placeholder="Enter Your password again">
         <br>
-        <button type="submit">Submit</button>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <form action="/sign-in" id="sign-inn">
+        <span>Go to: </span><button>Sign In Page</button>
     </form>
 
 </body>
