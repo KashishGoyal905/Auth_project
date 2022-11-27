@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/sign-in.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Sign In Page</h1>
-    <form action="/create-session" method="post">
+    <h1>Sign In</h1>
+    <form action="/create-session" method="post" id="sign-inn">
         <label for="email">Email: </label>
         <input type="email" name="email" id="email" placeholder="Enter Your email">
         <br>
         <label for="password">Password: </label>
         <input type="text" name="password" id="password" placeholder="Enter Your password">
         <br>
-        <button type="submit">Submit</button>
+        <button type="submit">Sign In</button>
     </form>
 
+    <form action="/sign-up" id="sign-upp">
+        <span>Go to: </span><button>Sign Up Page</button>
+    </form>
 </body>
 
 </html>
